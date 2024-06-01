@@ -33,11 +33,11 @@ function Protected(props) {
     return (
         <div>
             <span style={{ display: 'none' }}>
-                <Link id="link_add" to="/add" ref={linkRef}>Add Product</Link>
+                <Link id="link_add" to="/" ref={linkRef}>t</Link>
             </span>
 
             <span style={{ display: 'none' }}>
-                <Link id="regiterid" to="/regiter" ref={ref_Regitration}>Add Product</Link>
+                <Link id="regiterid" to="/regiter" ref={ref_Regitration}></Link>
             </span>
 
             <Componet />

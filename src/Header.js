@@ -41,11 +41,14 @@ function Header() {
                         <>
                             <Link to="/add">Add Propduct</Link>
                             <Link to="/update">Upadet Propduct</Link>
+                            <Link to="/">Product list</Link>
+                            
                         </>
                         :
                         <>
                             <Link to="/login">Login</Link>
                             <Link to="/regiter">Regitor</Link>
+                         
                         </>
                 }
                 {
