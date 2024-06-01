@@ -23,9 +23,24 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.nav-bar-warpper a{
+  padding-left: 40px !important;
+  color: white !important;
+}
+.nav-bar-warpper{
+  background-color: #282c34;
+  color: white !important;
+}
 
+
+.dropdown-item{
+  color: rgb(18, 16, 16) !important;
+}
 .App-link {
   color: #61dafb;
+}
+.myNav{
+  background-color: #282c34 !important;
 }
 
 @keyframes App-logo-spin {
